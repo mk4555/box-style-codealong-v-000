@@ -123,9 +123,32 @@ header{
   margin: 0 0 30px;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+
+}
 
 /*////////// NAVBAR //////////*/
+#navbar nav {
+  border-left: 1px solid #ccc;
+}
 
+#navbar nav a {
+  display: inline-block;
+  width: 16.66667%;
+  margin: 0;
+  padding: 22px 0;
+  text-transform: uppercase;
+  color: black;
+  text-align: center;
+  border-right: 1px solid #ccc;
+}
 
 
 /*////////// LOGO //////////*/
