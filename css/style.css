@@ -158,6 +158,6 @@ section {
 }
 
 .shadow {
-  box-shadow: 0 3px
+  box-shadow: 0 3px 10px #333;
 }
 /*////////// FOOTER //////////*/
