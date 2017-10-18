@@ -28,11 +28,22 @@ figcaption {
   text-shadow: 0 2px 3px #000;
 }
 
+.light-fade{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6bba70+0,6bba70+100;Green+Flat+%234 */
+background: rgb(107,186,112); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(107,186,112,1) 0%, rgba(107,186,112,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(107,186,112,1) 0%,rgba(107,186,112,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6bba70', endColorstr='#6bba70',GradientType=0 ); /* IE6-9 */
+}
 
 
 /*////////// BACKGROUNDS //////////*/
 
-
+.white-wood{
+  background: url(../images/white-wood.jpg);
+  background-size: cover;
+}
 
 /*/////// MEDIA ////////*/
 
@@ -132,7 +143,7 @@ img, video, audio, iframe, table, form {
 section {
   padding: 30px;
   margin-bottom: 20px;
-
+  background-color: white;
 }
 
 /*////////// DETAILS //////////*/
